@@ -1,4 +1,4 @@
-# Use Case 1 - Red Hat OpenShift Container Platform
+# Use Case 2 - Red Hat OpenShift Container Platform
 
 ### Title
 
@@ -62,13 +62,13 @@ The OpenEoX file for the OpenShift 4 high level schema:
     - product_cpes: cpe:/a:redhat:openshift:4.15::el9
 - OCP 4.16
   - ID: Product_ID-5
-  - based_on: rhel_9.2
+  - based_on: rhel_9.4
   - product_identification_helper
     - product_stream: 4.16
     - product_cpes: cpe:/a:redhat:openshift:4.16::el9
 - OCP 4.17
   - ID: Product_ID-6
-  - based_on: rhel_9.2
+  - based_on: rhel_9.4
   - product_identification_helper
     - product_stream: 4.17
     - product_cpes: cpe:/a:redhat:openshift:4.17::el9
@@ -102,7 +102,7 @@ The OpenEoX file for the OpenShift 4 high level schema:
   - visibility: private
 
 **mapping:**
-- RHEL 9.2
+- OCP 4.12
   - active_phases[]:
     - ID:1
       - GA: Jan 1
@@ -113,10 +113,54 @@ The OpenEoX file for the OpenShift 4 high level schema:
       - March 2027
     - ID: 2
       - March 2027
-- RHEL 9.3
+- OCP 4.13
   - active_phases[]:
     - ID:1
       - GA: July 1 2023
       - March 1 2024
     - ID:2
       - March 1 2024
+- OCP 4.14
+  - active_phases[]:
+    - ID:1
+      - GA: Jan 1
+      - July 1 2023
+    - ID:3
+      - March 2025
+    - ID: 4
+      - March 2027
+    - ID: 2
+      - March 2027
+- OCP 4.15
+  - active_phases[]:
+    - ID:1
+      - GA: Jan 1
+      - July 1 2023
+    - ID:3
+      - March 2025
+    - ID: 4
+      - March 2027
+    - ID: 2
+      - March 2027
+- OCP 4.16
+  - active_phases[]:
+    - ID:1
+      - GA: Jan 1
+      - July 1 2023
+    - ID:3
+      - March 2025
+    - ID: 4
+      - March 2027
+    - ID: 2
+      - March 2027
+- OCP 4.17
+  - active_phases[]:
+    - ID:1
+      - GA: Jan 1
+      - July 1 2023
+    - ID:3
+      - March 2025
+    - ID: 4
+      - March 2027
+    - ID: 2
+      - March 2027
